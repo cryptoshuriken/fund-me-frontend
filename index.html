@@ -2,18 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FundMe Dapp</title>
   </head>
   <body>
-    Fund Me Dapp
-    <button id="connectButton">Connect</button>
-    <button id="balanceButton">Get Balance</button>
-    <button id="withdrawButton">Withdraw</button>
-    <label for="fund">ETH Amount</label>
-    <input id="ethAmount" placeholder="0.1" />
-    <button id="fundButton">Fund</button>
+    <h1>Fund Me Dapp</h1>
+    <div class="container">
+      <button id="connectButton" class="btn">Connect</button>
+      <button id="balanceButton" class="btn">Get Balance</button>
+      <button id="withdrawButton" class="btn">Withdraw</button>
+      <div class="fund-section">
+        <label>ETH Amount</label>
+        <input id="ethAmount" placeholder="0.1" />
+        <button id="fundButton" class="btn btn-fund">Fund</button>
+      </div>
+    </div>
 
     <script src="./index.js" type="module"></script>
   </body>
