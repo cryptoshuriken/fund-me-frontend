@@ -60,3 +60,5 @@ To connect Metamask to a local blockchain, grab a private key from one of the fa
 ![fund button](./fund-btn.png)
 
 7. Interact with the smart contract with the `Get Balance` and `Withdraw` buttons, and have fun!
+
+---
